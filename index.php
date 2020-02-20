@@ -6,7 +6,8 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <header>
-        <?php include 'navigation.php';?>    </header>
+        <?php include 'navigation.php';?>  
+    </header>
     <body>
         <h1>Hello World</h1>
             <p>I'm hosted with GitHub Pages.</p>
