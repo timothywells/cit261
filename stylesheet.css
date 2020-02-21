@@ -4,19 +4,22 @@ html{
     padding: 0;
     margin: 0;
 }
+body{
+    margin: 0;
+    padding: 0;
+}
 
 /*Header Content*/
 header{
     background-color: midnightblue;
-    width: 100%;
+    width: auto;
     margin: 0;
-    padding: 1em
-        ;
+    padding: 1em;
 }
 
 /*Main or Body*/
 main{
-min-width: 900px;
+    min-width: 900px;
     margin: auto;
     padding: 0;
 }
