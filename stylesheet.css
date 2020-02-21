@@ -1,0 +1,57 @@
+html{
+    min-width: 900px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+/*Header Content*/
+header{
+    background-color: midnightblue;
+    width: 100%;
+    margin: 0;
+    padding: 1em
+        ;
+}
+
+/*Main or Body*/
+main{
+min-width: 900px;
+    margin: auto;
+    padding: 0;
+}
+
+/*Navigation*/
+nav{
+    float: left;
+    height: auto;
+    margin: 0 25px 0 0;
+    background-color: #f1f1f1;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+  }
+  
+ nav li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color on hover */
+  nav li a:hover {
+    background-color: #555;
+    color: white;
+  }
+  /* Headings and Paragraph*/
+  header h1{
+      color: white;
+  }
+header h2{
+    color: white
+}
