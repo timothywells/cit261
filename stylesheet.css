@@ -1,29 +1,15 @@
+/*Whole HTML*/
 html{
     min-width: 900px;
     width: 100%;
     padding: 0;
     margin: 0;
 }
+/*HTML Body*/
 body{
     margin: 0;
     padding: 0;
 }
-
-/*Header Content*/
-header{
-    background-color: midnightblue;
-    width: auto;
-    margin: 0;
-    padding: 1em;
-}
-
-/*Main or Body*/
-main{
-    min-width: 900px;
-    margin: auto;
-    padding: 0;
-}
-
 /*Navigation*/
 nav{
     float: left;
@@ -37,24 +23,41 @@ nav ul {
     padding: 0;
     width: 200px;
     background-color: #f1f1f1;
-  }
-  
- nav li a {
+}
+nav li a {
     display: block;
     color: #000;
     padding: 8px 16px;
     text-decoration: none;
-  }
-  
-  /* Change the link color on hover */
-  nav li a:hover {
+}
+nav li a:hover {
     background-color: #555;
     color: white;
-  }
-  /* Headings and Paragraph*/
-  header h1{
-      color: white;
-  }
+}
+/*Header Content*/
+header{
+    background-color: midnightblue;
+    width: auto;
+    margin: 0;
+    padding: 1em;
+}   
+/*Header Headings*/
+header h1{
+    color: white;
+}
 header h2{
-    color: white
+    color: white;
+}
+/*Main or Body*/
+main{
+    min-width: 900px;
+    margin: auto;
+    padding: 0;
+}
+/*Footer*/
+footer{
+    width: auto;
+    height: 200px;
+    padding: 0;
+    margin: 0;
 }
