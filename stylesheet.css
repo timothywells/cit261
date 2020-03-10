@@ -53,6 +53,7 @@ main{
     min-width: 900px;
     margin: auto;
     padding: 0;
+    margin-right: 200px;
 }
 /*Footer*/
 footer{
