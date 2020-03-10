@@ -44,16 +44,18 @@ header{
 /*Headings*/
 header h1{
     color: white;
+    font-size: xxx-large;
 }
-header h2{
+header h4{
     color: white;
 }
 /*Main*/
 main{
-    min-width: 900px;
-    margin: auto;
+    min-width: 600px;
+    max-width: 900px;
     padding: 0;
-    margin-right: 200px;
+    margin-right: auto;
+    margin-left: auto; 
 }
 /*Footer*/
 footer{
