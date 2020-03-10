@@ -41,14 +41,14 @@ header{
     margin: 0;
     padding: 1em;
 }   
-/*Header Headings*/
+/*Headings*/
 header h1{
     color: white;
 }
 header h2{
     color: white;
 }
-/*Main or Body*/
+/*Main*/
 main{
     min-width: 900px;
     margin: auto;
@@ -70,8 +70,7 @@ footer{
 #copyright{
     color: white;
     font-weight: 600;
-    font-size: xx-large;
-    text-align: center;
+    font-size: large;
     padding: 0;
     margin: 0;    
 }
