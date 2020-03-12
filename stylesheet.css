@@ -55,7 +55,7 @@ main{
     max-width: 900px;
     padding: 0;
     margin-right: auto;
-    margin-left: auto; 
+    margin-left: 250px; 
 }
 /*Footer*/
 footer{
@@ -75,4 +75,15 @@ footer{
     font-size: large;
     padding: 0;
     margin: 0;    
+}
+/*Preformatted*/
+pre{
+    margin: 0;
+    padding: 1em;
+    background-color: #323232;
+    color: whitesmoke;
+    font-weight: 900;
+}
+code{
+    color: lime;
 }

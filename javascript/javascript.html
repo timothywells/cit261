@@ -36,22 +36,177 @@
 
 <main>
     <h1>JavaScript</h1>
-    <h3>Introduction</h3>
-    <p>Content</p>
-    <h3>Variables</h3>
-    <p>Content</p>
-    <h3>Functions</h3>
-    <p>Content</p>
-    <h3>Parameters</h3>
-    <p>Content</p>
-    <h3>Arrays</h3>
-    <p>Content</p>
-    <h3>Associative Arrays</h3>
-    <p>Content</p>
-    <h3>Conditional Statements</h3>
-    <p>Content</p>
-    <h3>Loops</h3>
-    <p>Content</p>
+        <section>
+            <h3>Introduction</h3>
+            <p>JavaScript is an object-oriented programming language used to create interactive effects within web browsers in conjunction with HTML and CSS. The abbreviation that is most commonly used for JavaScript is JS and generally speaking it is necessary for a website to work its best.</p>
+        </section>
+
+        <section>
+            <h3>Variables</h3>
+            <p>Variables are used in practically every aspect of JavaScript. A variable can be almost anything from a number, boolean, strings, array functions and so on. Variables are one of the first things that are processed before other parts of the code are executed. Generally speaking you want to declare a Variable and give it some sort of value.</p>
+            
+            <h4>Example</h4>
+<pre>
+var varname1 [= value1] [, varname2 [= value2] ... [, varnameN [= valueN]]];
+</pre>
+<h4>Example</h4>
+<pre>
+var x = 1;
+
+if (x === 1) {
+var x = 2;
+
+console.log(x);
+<code>// expected output:</code> 2
+}
+
+console.log(x);
+<code>// expected output:</code> 2
+</pre>
+        </section>
+
+        <section>
+            <h3>Parameters</h3>
+            <p>Function Parameters are the names that are define in the function definition and real values passed to the function in function definition are known as arguments.</p>
+        </section>
+
+        <section>
+            <h3>Functions</h3>
+            <p>JavaScript functions are the main blocks of code designed to perform a particular task. Functions allow the code to be called many times without repetition.</p>
+            <h4>Example</h4>
+            <p>The general syntax of a function</p>
+<pre>
+function name(parameter1, parameter2, parameter3) {
+    <code>// code to be executed</code>
+}
+</pre>
+<h4>Example</h4>
+<p>Simple Function</p>
+<pre>
+function show() {
+    alert('Hello World!');
+}
+<code>// expected output:</code> Hello World!
+</pre>
+        </section>
+
+        <section>
+            <h3>Arrays</h3>
+            <p>In JavaScript, you can use arrays for storing multiple values in a single variable. You can describe an array as a unique variable capable of holding more than one value simultaneously.</p>
+            <h4>Syntax</h4>
+<pre>
+var array_name = [item1, item2, ...];   
+</pre>
+            <h4>Example</h4>
+<pre>
+var myArray = [1, 2, 3, 4];
+var catNamesArray = ["Jacqueline", "Sophia", "Autumn"];
+<code>//Arrays in JavaScript can hold different types of data, as shown above.</code>
+</pre>
+        </section>
+
+        <section>
+            <h3>Associative Arrays</h3>
+            <p>Associative arrays are dynamic objects that  the user redefines as needed. When you assign values ​​to keys in a variable of type Array, the array is transformed into an object, and it loses the attributes and methods of Array. Unlike simple arrays, they use curly braces instead of square brackets. This implicitly creates a variable of type Object.</p>
+            <h4>Example</h4>
+<pre>var arr = { "one": 1, "two": 2, "three": 3 }; </pre>
+
+            <h4>Associative Array as an Object</h4>
+<pre>
+var o = new Object();
+o["one"] = 1;
+o["two"] = 2;
+o["three"] = 3;
+for(var i in o)
+{
+     document.write(i + "=" + o[i] + '<br>');
+}
+</pre>
+<br>
+<pre>
+<code>Output:</code>
+one=1
+two=2
+three=3
+</pre>
+        </section>
+
+        <section>
+            <h3>Conditional Statements</h3>
+            <p>Conditional statements control behavior in JavaScript and determine whether or not pieces of code can run.</p>
+            <p>There are four major types of conditional statements and they are:</p>
+            <ul>
+                <li>if</li>
+                <li>else</li>
+                <li>else...if</li>
+                <li>switch</li>
+              </ul> 
+            <h4>if</h4>
+            <p>The if statement is used to select whether a statement is either true or false and theny passes on that selection to the rest of the code.</p>
+            <h4>Syntax</h4>
+<pre>
+if (condition) {
+<code>//if the condition is true block of code  executed</code>
+}
+</pre>
+            <h4>Example</h4>
+<pre>
+
+</pre>
+            <h4>else</h4>
+            <p>Content</p>
+            <h4>Syntax</h4>
+<pre>
+if (condition) {
+<code>//this code  will execute if the condition is true</code>
+} else {
+<code>// this code  will execute if the condition is false</code>
+}
+</pre>
+            <h4>Example</h4>
+<pre>
+
+</pre>
+            <h4>else...if</h4>
+            <p>Content</p>
+            <h4>Example</h4>
+<pre>
+content
+</pre>
+            <h4>switch</h4>
+            <p>Content</p>
+            <h4>Example</h4>
+<pre>
+content
+</pre>
+        </section>
+
+        <section>
+            <h3>Loops</h3>
+            <p>Content</p>
+            <h4>for loop</h4>
+            <p>Content</p>
+            <h4>Example</h4>
+<pre>
+content
+</pre>
+            <h4>while loop</h4>
+            <p>Content</p>
+            <h4>Example</h4>
+<pre>
+content
+</pre>
+            <h4>do while loop</h4>
+            <p>Content</p>
+            <h4>Example</h4>
+<pre>
+content
+</pre>
+        </section>
+        
+        <section>
+            <h3>JavaScript Example</h3>
+        </section>
 </main>
 <footer>
     <div id="copyright">Copyright &copy; 2020 Timothy Wells - CIT261</div>
